@@ -7,20 +7,38 @@ body {
 h1 {
 	font-family: "Oswald", serif;
 	text-align: center;
+	font-size: 40px;
+	color: #2d56a3;
 }
 h2 {
 	font-family: "Oswald", serif;
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	color: #1B2C4D;
+}
+h4 {
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	color: #535559;
 }
 p {
 	font-family: "Open Sans", serif;
 	font-size: 15px;
+	line-height: 25px;
+	color: #535559;
 }
 iframe {
 	margin-left: auto;
     margin-right: auto;
     display: block;
+}
+a { 
+	color: inherit; 
+	text-decoration: none;
+} 
+a:hover {
+	color: #E78F8E;
 }
 #header {
 	display: flex;
@@ -40,6 +58,9 @@ iframe {
 	margin-left: auto;
     margin-right: auto;
 }
+#video {
+	padding-top: 80px;
+}
 #form-box {
 	text-align: center;
 	margin-top: 100px;
@@ -50,6 +71,27 @@ iframe {
 
 }
 #form {
+}
+#email {
+	height: 40px;
+	width: 300px;
+	vertical-align: bottom;
+	font-family: "Open Sans";
+	font-size: 15px;
+	padding-left: 10px;
+}
+#submit {
+	height: 45px;
+	width: 80px;
+	font-size: 20px;
+	margin-left: 5px;
+	padding: 0px 0px 5px 0px;
+	border: none;
+	border-radius: 5px;
+	background-color: #E78F8E;
+  	transition: all .5s ease-in-out;
+  	background-image: none;
+  	clear: both;
 }
 .container {
     font-size: 30px;
