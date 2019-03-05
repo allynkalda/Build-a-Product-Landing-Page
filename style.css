@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	font-family: "Open Sans", serif;
+}
+h1 {
+	font-family: "Oswald", serif;
+	text-align: center;
+}
+h2 {
+	font-family: "Oswald", serif;
+	text-align: center;
+	font-size: 25px;
+}
+p {
+	font-family: "Open Sans", serif;
+	font-size: 15px;
+}
+iframe {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#header {
+	display: flex;
+}
+#links {
+	display: flex;
+	align-items: center;
+    margin: 0 0 0 auto;
+    padding-right: 15px;
+}
+.nav-link {
+	padding: 0 20px 0 20px;
+}
+#text-1 {
+	width: 70%;
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+#form-box {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+#form {
+}
+.container {
+    font-size: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
